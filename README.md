@@ -19,7 +19,7 @@ This methodology measures 6 dimensions to understand an individual’s culture n
 ### Functional
 
 1. The assessment consists of 30 questions in total.
-2. The questions of the assessment should give two options for the answer. Each
+2. The questions of the assessment should give two options to choose from. Each
 of these options should be one of the provided answers (see `dimensions.js`). This is called [Ipsative testing](https://en.wikipedia.org/wiki/Ipsative).
 3. The Ipsative questions should be as the following example:
 
@@ -27,10 +27,10 @@ of these options should be one of the provided answers (see `dimensions.js`). Th
 > - I am innovative (answer 1, related to Adaptability)
 > - I am honest (answer 2, related to Integrity)
 
-4. Dimension should be matched exactly two times. For example, the user must choose between options related to Adaptability and Collaboration twice.
+4. Every combination of Dimensions should appear twice during the assessment. For example, the user must be asked twice to choose between Adaptability and Collaboration.
 5. Each time a user chooses an answer, his score for the corresponding dimension is incremented by 1.
-6. Each answer should only be shown once.
-7. The result of the assessment is represented by the amount of times each dimension was chosen. Here is a JSON representation:
+6. Each label for the answers should only appear once in the assessment (no repetition).
+7. The result of the assessment is represented by the amount of times each dimension was chosen. Here is a JSON example:
 
 ```json
 {
