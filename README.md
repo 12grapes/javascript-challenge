@@ -40,6 +40,7 @@ of these options should be one of the provided answers (see `dimensions.js`). Th
 
 ### Technical
 
+- This repository uses a simple Jest boilerplate to write unit tests. Feel free to use any other testing framework, as long as you can provide coverage analysis.
 - Have >90% of code coverage. A suggested test suite is provided in `assessment.test.js`, feel free to rewrite it if you would rather start with your own tests.
 - You are allowed to use any third party libraries.
 - You do not have to build a UI or an API/Server, having a self descriptive test suite is enough.
