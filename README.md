@@ -1,6 +1,5 @@
 # Bunch JavaScript challenge
 
-
 ## Background
 
 The coding challenge is based on the culture assessment that you have already taken. The goal of this assessment is to evaluate someone’s culture using a methodology developed by Charles O’Reilly at the Stanford GSB Institute for Organizational Behavior.
@@ -22,10 +21,16 @@ This methodology measures 6 dimensions to understand an individual’s culture n
 1. The assessment consists of 30 questions in total.
 2. The questions of the assessment should give two options for the answer. Each
 of these options should be one of the provided answers (see `dimensions.js`). This is called [Ipsative questions](https://en.wikipedia.org/wiki/Ipsative).
-3. Dimension should be matched exactly two times. For example, the user must choose between options related to Adaptability and Collaboration twice.
-4. Each time a user chooses an answer, his score for the corresponding dimension is incremented by 1.
-5. Each answer should only be shown once.
-5. The result of the assessment is represented by the amount of times each dimension was chosen. Here is a JSON representation:
+3. The Ipsative questions should be as the following example:
+
+> Pick the answer that describes you best: (this question title is the same for all questions)
+> - I am innovative (answer 1, related to Adaptability)
+> - I am honest (answer 2, related to Integrity)
+
+4. Dimension should be matched exactly two times. For example, the user must choose between options related to Adaptability and Collaboration twice.
+5. Each time a user chooses an answer, his score for the corresponding dimension is incremented by 1.
+6. Each answer should only be shown once.
+7. The result of the assessment is represented by the amount of times each dimension was chosen. Here is a JSON representation:
 
 ```json
 {
@@ -48,6 +53,13 @@ of these options should be one of the provided answers (see `dimensions.js`). Th
 - Make use of modern JavaScript syntax. The test code goes through babel using the `env` preset.
 
 > Without any configuration options, @babel/preset-env behaves exactly the same as @babel/preset-latest (or @babel/preset-es2015, @babel/preset-es2016, and @babel/preset-es2017 together).
+
+## Instructions
+
+- Fork this repository (or clone it),
+- Complete the challenge (should take about 1-2 hours),
+- Feel free to ask any questions that you have,
+- Submit the result either by sharing your fork or sending your local repository as a compressed archive).
 
 ## Installation
 
