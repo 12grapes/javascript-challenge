@@ -20,7 +20,7 @@ This methodology measures 6 dimensions to understand an individual’s culture n
 
 1. The assessment consists of 30 questions in total.
 2. The questions of the assessment should give two options for the answer. Each
-of these options should be one of the provided answers (see `dimensions.js`). This is called [Ipsative questions](https://en.wikipedia.org/wiki/Ipsative).
+of these options should be one of the provided answers (see `dimensions.js`). This is called [Ipsative testing](https://en.wikipedia.org/wiki/Ipsative).
 3. The Ipsative questions should be as the following example:
 
 > Pick the answer that describes you best: (this question title is the same for all questions)
@@ -59,7 +59,7 @@ of these options should be one of the provided answers (see `dimensions.js`). Th
 - Fork this repository (or clone it),
 - Complete the challenge (should take about 1-2 hours),
 - Feel free to ask any questions that you have,
-- Submit the result either by sharing your fork or sending your local repository as a compressed archive).
+- Submit the result either by sharing your fork or sending your local repository as a compressed archive via email/gist.
 
 ## Installation
 
