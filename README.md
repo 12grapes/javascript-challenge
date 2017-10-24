@@ -28,13 +28,13 @@ of these options should be one of the provided answers (see `dimensions.js`). Th
 5. The result of the assessment is represented by the amount of times each dimension was chosen. Here is a JSON representation:
 
 ```json
-dimensions: {
-  Adaptive: 3,
-  Integrity: 7,
-  Collaborative: 5,
-  Result: 5,
-  Customer:8,
-  Detail: 2
+{
+  "Adaptive": 3,
+  "Integrity": 7,
+  "Collaborative": 5,
+  "Result": 5,
+  "Customer":8,
+  "Detail": 2
 }
 ```
 
