@@ -30,7 +30,8 @@ of these options should be one of the provided answers (see `dimensions.js`). Th
 4. Every combination of Dimensions should appear twice during the assessment. For example, the user must be asked twice to choose between Adaptability and Collaboration.
 5. Each time a user chooses an answer, his score for the corresponding dimension is incremented by 1.
 6. Each label for the answers should only appear once in the assessment (no repetition).
-7. The result of the assessment is represented by the amount of times each dimension was chosen. Here is a JSON example:
+7. The order in which the questions appear should be randomized.
+8. The result of the assessment is represented by the amount of times each dimension was chosen. Here is a JSON example:
 
 ```json
 {
