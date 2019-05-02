@@ -1,5 +1,4 @@
-
-export default  [
+const Dimensions = [
   {
     name: 'Adaptive',
     answers: [
@@ -91,3 +90,5 @@ export default  [
     ],
   },
 ];
+
+module.exports = Dimensions
